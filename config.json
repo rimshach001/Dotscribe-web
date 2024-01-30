@@ -1,0 +1,52 @@
+{
+  "logging": {
+    "level": "debug",
+    "maxFiles": 1,
+    "logFileSize": 5,
+    "prettyPrint": false,
+    "file": true,
+    "console": false,
+    "allowedLevels": {
+      "info": true,
+      "debug": true,
+      "error": true
+    },
+    "allowedServices": {
+      "KEYBOARD": false,
+      "CLIPBOARD": true,
+      "WINDOW": false,
+      "EVENTS": true,
+      "SIZE": true
+    }
+  },
+  "DOT_HOME": "DOT_HOME",
+  "appName": "Dotscribe",
+  "freeGptRequestLimit": 5,
+  "OPENAI_KEY": "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",
+  "STRIPE_AI_MONTHLY": "price_1Nb3beJAEfI5GNdRPgnzJvbE",
+  "STRIPE_AI_YEARLY": "price_1Nb3etJAEfI5GNdRwlHwU7cn",
+  "LINKS": {
+    "CREATE_NEW_PHRASE": "https://app.dotscribe.com",
+    "CREATE_ACCOUNT": "https://app.dotscribe.com",
+    "FORGOT_PASSWORD": "https://app.dotscribe.com",
+    "OPEN_LIBRARY": "https://app.dotscribe.com/mylibrary",
+    "HELPDESK": "https://support.dotscribe.com/portal/en/home",
+    "ONLINE_TUTORIAL": "https://www.dotscribe.com/tutorial",
+    "UPGRADE": "https://app.dotscribe.com/settings"
+  },
+  "WINDOW_BEHAVIOUR": {
+    "SEARCH": {
+      "CLOSE_AFTER_EXECUTE": true
+    },
+    "PHRASES": {
+      "CLOSE_AFTER_EXECUTE": true
+    },
+    "LIBRARY": {
+      "CLOSE_AFTER_EXECUTE": true
+    },
+    "AI": {
+      "CLOSE_AFTER_EXECUTE": true
+    }
+  },
+  "MIX_PANEL": true
+}

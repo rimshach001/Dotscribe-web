@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "target": "ES6",
+      "module": "esnext",
+      "lib": [
+        "es6",
+        "dom",
+        "es2019"
+      ],
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "declaration": false,
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "noLib": false,
+      "strict": false,
+      "skipLibCheck": true,
+      "jsx": "react",
+      "baseUrl": "./",
+      "paths": {
+        "@app/*": [
+          "./src/*"
+        ],
+        "@constants/*": [
+          "./constants/*"
+        ],
+        "@typing/*": [
+          "./types/*"
+        ],
+        "@server/*": [
+          "./server/*"
+        ],    
+        "@assets/*": [
+          "./src/assets/*"
+        ]
+      }
+    },
+    "compileOnSave": false
+}

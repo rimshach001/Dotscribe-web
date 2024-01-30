@@ -1,0 +1,36 @@
+.switch-Input-p {
+  margin-left: 2%;
+  width: 100%;
+}
+.profie-detail-rows {
+  display: flex;
+  flex-direction: row;
+}
+.profie-detail-rows-p {
+  margin-left: 1%;
+}
+.edit-icon {
+  width: 18px;
+}
+.social-icons {
+  width: 60%;
+}
+.social-icon {
+  padding-left: 3%;
+}
+.textarea-p {
+  width: 100%;
+  height: 4rem;
+  border: 0;
+}
+.profie-detail-rows-p {
+  border: 0;
+  margin-bottom: 2%;
+}
+
+@media (max-width: 1000px) {
+  .edit-icon {
+    width: 35%;
+    height: 35%;
+  }
+}

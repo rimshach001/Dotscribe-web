@@ -1,0 +1,624 @@
+.loader {
+    width: 100px;
+    height: 100px;
+    font-size: 0;
+    overflow: hidden;
+  }
+  .loader-small {
+    width: 50px;
+    height: 50px;
+    font-size: 0;
+    overflow: hidden;
+  }
+  .dot {
+    background: #21a1a1;
+    width: 25%;
+    height: 25%;
+    margin: 4.166666666666667%;
+    border-radius: 100%;
+    display: inline-block;
+    transition: all 200ms;
+    -webkit-animation: 3s infinite;
+            animation: 3s infinite;
+  }
+  .loader:hover .dot {
+    width: 33.333333333333336%;
+    height: 33.333333333333336%;
+    margin: 0;
+    border-radius: 0;
+  }
+  .style-classic .dot1A {
+    transition-delay: 0ms;
+    -webkit-animation-name: classicdot1A;
+            animation-name: classicdot1A;
+  }
+  @-webkit-keyframes classicdot1A {
+    0% {
+      background: #21a1a1;
+    }
+    24.19% {
+      background: rgba(33,161,161,0.59);
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    74.19% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot1A {
+    0% {
+      background: #21a1a1;
+    }
+    24.19% {
+      background: rgba(33,161,161,0.59);
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    74.19% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot1B {
+    transition-delay: 75ms;
+    -webkit-animation-name: classicdot1B;
+            animation-name: classicdot1B;
+  }
+  @-webkit-keyframes classicdot1B {
+    3.23% {
+      background: #21a1a1;
+    }
+    27.42% {
+      background: rgba(33,161,161,0.59);
+    }
+    53.23% {
+      background: rgba(33,161,161,0.59);
+    }
+    77.42% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot1B {
+    3.23% {
+      background: #21a1a1;
+    }
+    27.42% {
+      background: rgba(33,161,161,0.59);
+    }
+    53.23% {
+      background: rgba(33,161,161,0.59);
+    }
+    77.42% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot1C {
+    transition-delay: 150ms;
+    -webkit-animation-name: classicdot1C;
+            animation-name: classicdot1C;
+  }
+  @-webkit-keyframes classicdot1C {
+    6.45% {
+      background: #21a1a1;
+    }
+    30.65% {
+      background: rgba(33,161,161,0.59);
+    }
+    56.45% {
+      background: rgba(33,161,161,0.59);
+    }
+    80.65% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot1C {
+    6.45% {
+      background: #21a1a1;
+    }
+    30.65% {
+      background: rgba(33,161,161,0.59);
+    }
+    56.45% {
+      background: rgba(33,161,161,0.59);
+    }
+    80.65% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot2A {
+    transition-delay: 225ms;
+    -webkit-animation-name: classicdot2A;
+            animation-name: classicdot2A;
+  }
+  @-webkit-keyframes classicdot2A {
+    9.68% {
+      background: #21a1a1;
+    }
+    33.87% {
+      background: rgba(33,161,161,0.59);
+    }
+    59.68% {
+      background: rgba(33,161,161,0.59);
+    }
+    83.87% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot2A {
+    9.68% {
+      background: #21a1a1;
+    }
+    33.87% {
+      background: rgba(33,161,161,0.59);
+    }
+    59.68% {
+      background: rgba(33,161,161,0.59);
+    }
+    83.87% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot2B {
+    transition-delay: 300ms;
+    -webkit-animation-name: classicdot2B;
+            animation-name: classicdot2B;
+  }
+  @-webkit-keyframes classicdot2B {
+    12.9% {
+      background: #21a1a1;
+    }
+    37.1% {
+      background: rgba(33,161,161,0.59);
+    }
+    62.9% {
+      background: rgba(33,161,161,0.59);
+    }
+    87.1% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot2B {
+    12.9% {
+      background: #21a1a1;
+    }
+    37.1% {
+      background: rgba(33,161,161,0.59);
+    }
+    62.9% {
+      background: rgba(33,161,161,0.59);
+    }
+    87.1% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot2C {
+    transition-delay: 375ms;
+    -webkit-animation-name: classicdot2C;
+            animation-name: classicdot2C;
+  }
+  @-webkit-keyframes classicdot2C {
+    16.13% {
+      background: #21a1a1;
+    }
+    40.32% {
+      background: rgba(33,161,161,0.59);
+    }
+    66.13% {
+      background: rgba(33,161,161,0.59);
+    }
+    90.32% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot2C {
+    16.13% {
+      background: #21a1a1;
+    }
+    40.32% {
+      background: rgba(33,161,161,0.59);
+    }
+    66.13% {
+      background: rgba(33,161,161,0.59);
+    }
+    90.32% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot3A {
+    transition-delay: 450ms;
+    -webkit-animation-name: classicdot3A;
+            animation-name: classicdot3A;
+  }
+  @-webkit-keyframes classicdot3A {
+    19.35% {
+      background: #21a1a1;
+    }
+    43.55% {
+      background: rgba(33,161,161,0.59);
+    }
+    69.35% {
+      background: rgba(33,161,161,0.59);
+    }
+    93.55% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot3A {
+    19.35% {
+      background: #21a1a1;
+    }
+    43.55% {
+      background: rgba(33,161,161,0.59);
+    }
+    69.35% {
+      background: rgba(33,161,161,0.59);
+    }
+    93.55% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot3B {
+    transition-delay: 525ms;
+    -webkit-animation-name: classicdot3B;
+            animation-name: classicdot3B;
+  }
+  @-webkit-keyframes classicdot3B {
+    22.58% {
+      background: #21a1a1;
+    }
+    46.77% {
+      background: rgba(33,161,161,0.59);
+    }
+    72.58% {
+      background: rgba(33,161,161,0.59);
+    }
+    96.77% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot3B {
+    22.58% {
+      background: #21a1a1;
+    }
+    46.77% {
+      background: rgba(33,161,161,0.59);
+    }
+    72.58% {
+      background: rgba(33,161,161,0.59);
+    }
+    96.77% {
+      background: #21a1a1;
+    }
+  }
+  .style-classic .dot3C {
+    transition-delay: 600ms;
+    -webkit-animation-name: classicdot3C;
+            animation-name: classicdot3C;
+  }
+  @-webkit-keyframes classicdot3C {
+    25.81% {
+      background: #21a1a1;
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    75.81% {
+      background: rgba(33,161,161,0.59);
+    }
+    100% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes classicdot3C {
+    25.81% {
+      background: #21a1a1;
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    75.81% {
+      background: rgba(33,161,161,0.59);
+    }
+    100% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot1A {
+    transition-delay: 0ms;
+    -webkit-animation-name: diagonaldot1A;
+            animation-name: diagonaldot1A;
+  }
+  @-webkit-keyframes diagonaldot1A {
+    0% {
+      background: #21a1a1;
+    }
+    32.61% {
+      background: rgba(33,161,161,0.59);
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    82.61% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot1A {
+    0% {
+      background: #21a1a1;
+    }
+    32.61% {
+      background: rgba(33,161,161,0.59);
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    82.61% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot2A {
+    transition-delay: 75ms;
+    -webkit-animation-name: diagonaldot2A;
+            animation-name: diagonaldot2A;
+  }
+  @-webkit-keyframes diagonaldot2A {
+    4.35% {
+      background: #21a1a1;
+    }
+    36.96% {
+      background: rgba(33,161,161,0.59);
+    }
+    54.35% {
+      background: rgba(33,161,161,0.59);
+    }
+    86.96% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot2A {
+    4.35% {
+      background: #21a1a1;
+    }
+    36.96% {
+      background: rgba(33,161,161,0.59);
+    }
+    54.35% {
+      background: rgba(33,161,161,0.59);
+    }
+    86.96% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot1B {
+    transition-delay: 75ms;
+    -webkit-animation-name: diagonaldot1B;
+            animation-name: diagonaldot1B;
+  }
+  @-webkit-keyframes diagonaldot1B {
+    4.35% {
+      background: #21a1a1;
+    }
+    36.96% {
+      background: rgba(33,161,161,0.59);
+    }
+    54.35% {
+      background: rgba(33,161,161,0.59);
+    }
+    86.96% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot1B {
+    4.35% {
+      background: #21a1a1;
+    }
+    36.96% {
+      background: rgba(33,161,161,0.59);
+    }
+    54.35% {
+      background: rgba(33,161,161,0.59);
+    }
+    86.96% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot3A {
+    transition-delay: 150ms;
+    -webkit-animation-name: diagonaldot3A;
+            animation-name: diagonaldot3A;
+  }
+  @-webkit-keyframes diagonaldot3A {
+    8.7% {
+      background: #21a1a1;
+    }
+    41.3% {
+      background: rgba(33,161,161,0.59);
+    }
+    58.7% {
+      background: rgba(33,161,161,0.59);
+    }
+    91.3% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot3A {
+    8.7% {
+      background: #21a1a1;
+    }
+    41.3% {
+      background: rgba(33,161,161,0.59);
+    }
+    58.7% {
+      background: rgba(33,161,161,0.59);
+    }
+    91.3% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot2B {
+    transition-delay: 150ms;
+    -webkit-animation-name: diagonaldot2B;
+            animation-name: diagonaldot2B;
+  }
+  @-webkit-keyframes diagonaldot2B {
+    8.7% {
+      background: #21a1a1;
+    }
+    41.3% {
+      background: rgba(33,161,161,0.59);
+    }
+    58.7% {
+      background: rgba(33,161,161,0.59);
+    }
+    91.3% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot2B {
+    8.7% {
+      background: #21a1a1;
+    }
+    41.3% {
+      background: rgba(33,161,161,0.59);
+    }
+    58.7% {
+      background: rgba(33,161,161,0.59);
+    }
+    91.3% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot1C {
+    transition-delay: 150ms;
+    -webkit-animation-name: diagonaldot1C;
+            animation-name: diagonaldot1C;
+  }
+  @-webkit-keyframes diagonaldot1C {
+    8.7% {
+      background: #21a1a1;
+    }
+    41.3% {
+      background: rgba(33,161,161,0.59);
+    }
+    58.7% {
+      background: rgba(33,161,161,0.59);
+    }
+    91.3% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot1C {
+    8.7% {
+      background: #21a1a1;
+    }
+    41.3% {
+      background: rgba(33,161,161,0.59);
+    }
+    58.7% {
+      background: rgba(33,161,161,0.59);
+    }
+    91.3% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot3B {
+    transition-delay: 225ms;
+    -webkit-animation-name: diagonaldot3B;
+            animation-name: diagonaldot3B;
+  }
+  @-webkit-keyframes diagonaldot3B {
+    13.04% {
+      background: #21a1a1;
+    }
+    45.65% {
+      background: rgba(33,161,161,0.59);
+    }
+    63.04% {
+      background: rgba(33,161,161,0.59);
+    }
+    95.65% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot3B {
+    13.04% {
+      background: #21a1a1;
+    }
+    45.65% {
+      background: rgba(33,161,161,0.59);
+    }
+    63.04% {
+      background: rgba(33,161,161,0.59);
+    }
+    95.65% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot2C {
+    transition-delay: 225ms;
+    -webkit-animation-name: diagonaldot2C;
+            animation-name: diagonaldot2C;
+  }
+  @-webkit-keyframes diagonaldot2C {
+    13.04% {
+      background: #21a1a1;
+    }
+    45.65% {
+      background: rgba(33,161,161,0.59);
+    }
+    63.04% {
+      background: rgba(33,161,161,0.59);
+    }
+    95.65% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot2C {
+    13.04% {
+      background: #21a1a1;
+    }
+    45.65% {
+      background: rgba(33,161,161,0.59);
+    }
+    63.04% {
+      background: rgba(33,161,161,0.59);
+    }
+    95.65% {
+      background: #21a1a1;
+    }
+  }
+  .style-diagonal .dot3C {
+    transition-delay: 300ms;
+    -webkit-animation-name: diagonaldot3C;
+            animation-name: diagonaldot3C;
+  }
+  @-webkit-keyframes diagonaldot3C {
+    17.39% {
+      background: #21a1a1;
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    67.39% {
+      background: rgba(33,161,161,0.59);
+    }
+    100% {
+      background: #21a1a1;
+    }
+  }
+  @keyframes diagonaldot3C {
+    17.39% {
+      background: #21a1a1;
+    }
+    50% {
+      background: rgba(33,161,161,0.59);
+    }
+    67.39% {
+      background: rgba(33,161,161,0.59);
+    }
+    100% {
+      background: #21a1a1;
+    }
+  }
+  

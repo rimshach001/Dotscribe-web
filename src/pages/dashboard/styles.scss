@@ -1,0 +1,12 @@
+.bar {
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.9));
+  background-color: rgb(49, 56, 96);
+}
+
+.greenColor {
+  color: #28a4a4;
+}
+
+.my-gutter [class*='col'] {
+  padding: 1rem;
+}

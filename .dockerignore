@@ -1,0 +1,11 @@
+**/*/infra
+**/*/Dockerfile
+Dockerfile
+**/*/.dockerignore
+.dockerignore
+**/*/node_modules
+node_modules
+**/*/node_modules
+*.log
+dist
+**/*/dist

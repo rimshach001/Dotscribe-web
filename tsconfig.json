@@ -1,0 +1,29 @@
+{
+  "extends":"./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": false,
+    "jsx": "react",
+    "lib": ["dom", "es2015"],
+    "skipLibCheck": true
+  },
+  "paths": {
+    "@app/*": [
+      "./src/*"
+    ],
+    "@constants/*": [
+      "./src/constants*"
+    ],
+    "@typing/*": [
+      "./types/*"
+    ],
+    "@server/*": [
+      "./src/server*"
+    ],
+    "@assets/*": [
+      "./src/assets*"
+    ]
+  }
+}
